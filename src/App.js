@@ -11,7 +11,7 @@ import { useHistory } from 'react-router-dom';
 
 const oktaAuth = new OktaAuth({
   issuer: 'https://dev-2712360.okta.com/oauth2/default',
-  clientId: '0oa3d5ysngAlK9c0t5d7s',
+  clientId: '0oa3d5ysngAlK9c0t5d7',
   redirectUri: window.location.origin + '/callback'
 });
 
