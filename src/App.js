@@ -10,8 +10,8 @@ import { OktaAuth, toRelativeUrl } from '@okta/okta-auth-js';
 import { useHistory } from 'react-router-dom';
 
 const oktaAuth = new OktaAuth({
-  issuer: 'https://{YourOktaDomain}/oauth2/default',
-  clientId: '{ClientId}',
+  issuer: 'https://dev-2712360.okta.com/oauth2/default',
+  clientId: '0oa3d5ysngAlK9c0t5d7s',
   redirectUri: window.location.origin + '/callback'
 });
 
