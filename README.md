@@ -2,6 +2,15 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Install dependancies
+
+```
+npm install -E react-router-dom@5.2.0
+npm install -E @okta/okta-react@5.0.0 @okta/okta-auth-js@4.8.0
+npm install -E @okta/okta-signin-widget@5.5.0
+```
+
+
 ## Available Scripts
 
 In the project directory, you can run:
